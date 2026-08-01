@@ -1,0 +1,23 @@
+/* Minimal global styles. The full kid-friendly "Vibe" (fonts, colors,
+   tactile buttons) lands in Phase 2 with the game UI. */
+
+:root {
+  --font-round: 'Quicksand', 'Comic Neue', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font-round);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}

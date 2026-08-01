@@ -1,0 +1,24 @@
+{
+  "name": "mathketeers",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A gamified multiplication app for 2nd graders that unlocks superheroes as they learn.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "generate:seed": "node scripts/generateProblems.mjs"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^11.3.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.4"
+  }
+}

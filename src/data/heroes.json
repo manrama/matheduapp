@@ -1,0 +1,172 @@
+[
+  {
+    "id": "captain-calculator",
+    "name": "Captain Calculator",
+    "title": "Guardian of the Ones & Twos",
+    "description": "The steady starter hero! Captain Calculator never misses a beat when counting by 1s and 2s.",
+    "emoji": "🦸",
+    "tier": 1,
+    "level": 1,
+    "unlockAt": 5,
+    "colorTheme": {
+      "primary": "#FF5D5D",
+      "secondary": "#FFD23F",
+      "accent": "#FFFFFF",
+      "text": "#3A0000"
+    },
+    "catchphrase": "Every hero starts with one!"
+  },
+  {
+    "id": "the-fiver",
+    "name": "The Fiver",
+    "title": "Master of the High Fives",
+    "description": "Zooming in with the power of 5s and 10s, The Fiver counts faster than a rocket!",
+    "emoji": "🖐️",
+    "tier": 2,
+    "level": 1,
+    "unlockAt": 10,
+    "colorTheme": {
+      "primary": "#3FA7FF",
+      "secondary": "#B5E48C",
+      "accent": "#FFFFFF",
+      "text": "#00284D"
+    },
+    "catchphrase": "Give me five... times ten!"
+  },
+  {
+    "id": "the-multiplier",
+    "name": "The Multiplier",
+    "title": "The Doubling Dynamo",
+    "description": "Nothing stays small around The Multiplier — one becomes many in the blink of an eye!",
+    "emoji": "⚡",
+    "tier": 3,
+    "level": 1,
+    "unlockAt": 15,
+    "colorTheme": {
+      "primary": "#7B5EA7",
+      "secondary": "#FFD23F",
+      "accent": "#FFFFFF",
+      "text": "#2A0A4A"
+    },
+    "catchphrase": "More is my superpower!"
+  },
+  {
+    "id": "triple-threat",
+    "name": "Triple Threat",
+    "title": "Champion of the Threes",
+    "description": "Three times the speed, three times the fun. Triple Threat leaps over the 3s with ease!",
+    "emoji": "🐆",
+    "tier": 4,
+    "level": 2,
+    "unlockAt": 20,
+    "colorTheme": {
+      "primary": "#FF9F1C",
+      "secondary": "#2EC4B6",
+      "accent": "#FFFFFF",
+      "text": "#4A2800"
+    },
+    "catchphrase": "One, two, THREE — catch me!"
+  },
+  {
+    "id": "quad-squad-captain",
+    "name": "Quad Squad Captain",
+    "title": "Commander of the Fours",
+    "description": "Marching in perfect fours, the Quad Squad Captain keeps every number in line.",
+    "emoji": "🛡️",
+    "tier": 5,
+    "level": 2,
+    "unlockAt": 25,
+    "colorTheme": {
+      "primary": "#2EC4B6",
+      "secondary": "#FF5D5D",
+      "accent": "#FFFFFF",
+      "text": "#003B36"
+    },
+    "catchphrase": "Fours assemble!"
+  },
+  {
+    "id": "sixer-sprinter",
+    "name": "Sixer Sprinter",
+    "title": "The Speedy Sixster",
+    "description": "Blazing through the 6s at super-speed, nobody counts faster than the Sixer Sprinter!",
+    "emoji": "🏃",
+    "tier": 6,
+    "level": 3,
+    "unlockAt": 30,
+    "colorTheme": {
+      "primary": "#F15BB5",
+      "secondary": "#FEE440",
+      "accent": "#FFFFFF",
+      "text": "#4A0033"
+    },
+    "catchphrase": "Six-speed and beyond!"
+  },
+  {
+    "id": "lucky-seven",
+    "name": "Lucky Seven",
+    "title": "The Fortune Flyer",
+    "description": "With a wink and a whoosh, Lucky Seven turns the tricky 7s into a lucky win!",
+    "emoji": "🍀",
+    "tier": 7,
+    "level": 3,
+    "unlockAt": 35,
+    "colorTheme": {
+      "primary": "#00BB77",
+      "secondary": "#FFD23F",
+      "accent": "#FFFFFF",
+      "text": "#00331F"
+    },
+    "catchphrase": "Seven is my lucky number!"
+  },
+  {
+    "id": "octo-ace",
+    "name": "Octo Ace",
+    "title": "The Eight-Armed Wonder",
+    "description": "Eight arms, eight answers at once! Octo Ace juggles the 8s without breaking a sweat.",
+    "emoji": "🐙",
+    "tier": 8,
+    "level": 3,
+    "unlockAt": 40,
+    "colorTheme": {
+      "primary": "#9B5DE5",
+      "secondary": "#00BBF9",
+      "accent": "#FFFFFF",
+      "text": "#2A0A4A"
+    },
+    "catchphrase": "Eight is great!"
+  },
+  {
+    "id": "nine-lives-ninja",
+    "name": "Nine Lives Ninja",
+    "title": "Shadow of the Nines",
+    "description": "Sneaky, swift, and never stumped — the Nine Lives Ninja masters the mighty 9s.",
+    "emoji": "🥷",
+    "tier": 9,
+    "level": 3,
+    "unlockAt": 45,
+    "colorTheme": {
+      "primary": "#264653",
+      "secondary": "#E9C46A",
+      "accent": "#FFFFFF",
+      "text": "#FFFFFF"
+    },
+    "catchphrase": "Nine times unstoppable!"
+  },
+  {
+    "id": "fraction-falcon",
+    "name": "Fraction Falcon",
+    "title": "The Ultimate Times-Table Titan",
+    "description": "The legendary top hero! The Fraction Falcon has soared past every table and rules the skies of math.",
+    "emoji": "🦅",
+    "tier": 10,
+    "level": 3,
+    "unlockAt": 50,
+    "colorTheme": {
+      "primary": "#EE9B00",
+      "secondary": "#0A9396",
+      "accent": "#FFFFFF",
+      "text": "#3D2600"
+    },
+    "catchphrase": "The sky is not the limit — it's the beginning!"
+  }
+]

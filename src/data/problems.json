@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "l1-1x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 1,
+    "answer": 1,
+    "prompt": "1 × 1"
+  },
+  {
+    "id": "l1-1x2",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 2,
+    "answer": 2,
+    "prompt": "1 × 2"
+  },
+  {
+    "id": "l1-2x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 2,
+    "factorB": 1,
+    "answer": 2,
+    "prompt": "2 × 1"
+  },
+  {
+    "id": "l1-1x3",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 3,
+    "answer": 3,
+    "prompt": "1 × 3"
+  },
+  {
+    "id": "l1-3x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 3,
+    "factorB": 1,
+    "answer": 3,
+    "prompt": "3 × 1"
+  },
+  {
+    "id": "l1-1x4",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 4,
+    "answer": 4,
+    "prompt": "1 × 4"
+  },
+  {
+    "id": "l1-4x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 4,
+    "factorB": 1,
+    "answer": 4,
+    "prompt": "4 × 1"
+  },
+  {
+    "id": "l1-1x5",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 5,
+    "answer": 5,
+    "prompt": "1 × 5"
+  },
+  {
+    "id": "l1-5x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 5,
+    "factorB": 1,
+    "answer": 5,
+    "prompt": "5 × 1"
+  },
+  {
+    "id": "l1-1x6",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 6,
+    "answer": 6,
+    "prompt": "1 × 6"
+  },
+  {
+    "id": "l1-6x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 6,
+    "factorB": 1,
+    "answer": 6,
+    "prompt": "6 × 1"
+  },
+  {
+    "id": "l1-1x7",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 7,
+    "answer": 7,
+    "prompt": "1 × 7"
+  },
+  {
+    "id": "l1-7x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 7,
+    "factorB": 1,
+    "answer": 7,
+    "prompt": "7 × 1"
+  },
+  {
+    "id": "l1-1x8",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 8,
+    "answer": 8,
+    "prompt": "1 × 8"
+  },
+  {
+    "id": "l1-8x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 8,
+    "factorB": 1,
+    "answer": 8,
+    "prompt": "8 × 1"
+  },
+  {
+    "id": "l1-1x9",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 9,
+    "answer": 9,
+    "prompt": "1 × 9"
+  },
+  {
+    "id": "l1-9x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 9,
+    "factorB": 1,
+    "answer": 9,
+    "prompt": "9 × 1"
+  },
+  {
+    "id": "l1-1x10",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 10,
+    "answer": 10,
+    "prompt": "1 × 10"
+  },
+  {
+    "id": "l1-10x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 10,
+    "factorB": 1,
+    "answer": 10,
+    "prompt": "10 × 1"
+  },
+  {
+    "id": "l1-1x11",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 11,
+    "answer": 11,
+    "prompt": "1 × 11"
+  },
+  {
+    "id": "l1-11x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 11,
+    "factorB": 1,
+    "answer": 11,
+    "prompt": "11 × 1"
+  },
+  {
+    "id": "l1-1x12",
+    "level": 1,
+    "star": 1,
+    "factorA": 1,
+    "factorB": 12,
+    "answer": 12,
+    "prompt": "1 × 12"
+  },
+  {
+    "id": "l1-12x1",
+    "level": 1,
+    "star": 1,
+    "factorA": 12,
+    "factorB": 1,
+    "answer": 12,
+    "prompt": "12 × 1"
+  },
+  {
+    "id": "l1-2x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 2,
+    "answer": 4,
+    "prompt": "2 × 2"
+  },
+  {
+    "id": "l1-2x3",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 3,
+    "answer": 6,
+    "prompt": "2 × 3"
+  },
+  {
+    "id": "l1-3x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 3,
+    "factorB": 2,
+    "answer": 6,
+    "prompt": "3 × 2"
+  },
+  {
+    "id": "l1-2x4",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 4,
+    "answer": 8,
+    "prompt": "2 × 4"
+  },
+  {
+    "id": "l1-4x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 4,
+    "factorB": 2,
+    "answer": 8,
+    "prompt": "4 × 2"
+  },
+  {
+    "id": "l1-2x5",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 5,
+    "answer": 10,
+    "prompt": "2 × 5"
+  },
+  {
+    "id": "l1-5x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 5,
+    "factorB": 2,
+    "answer": 10,
+    "prompt": "5 × 2"
+  },
+  {
+    "id": "l1-2x6",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 6,
+    "answer": 12,
+    "prompt": "2 × 6"
+  },
+  {
+    "id": "l1-6x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 6,
+    "factorB": 2,
+    "answer": 12,
+    "prompt": "6 × 2"
+  },
+  {
+    "id": "l1-2x7",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 7,
+    "answer": 14,
+    "prompt": "2 × 7"
+  },
+  {
+    "id": "l1-7x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 7,
+    "factorB": 2,
+    "answer": 14,
+    "prompt": "7 × 2"
+  },
+  {
+    "id": "l1-2x8",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 8,
+    "answer": 16,
+    "prompt": "2 × 8"
+  },
+  {
+    "id": "l1-8x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 8,
+    "factorB": 2,
+    "answer": 16,
+    "prompt": "8 × 2"
+  },
+  {
+    "id": "l1-2x9",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 9,
+    "answer": 18,
+    "prompt": "2 × 9"
+  },
+  {
+    "id": "l1-9x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 9,
+    "factorB": 2,
+    "answer": 18,
+    "prompt": "9 × 2"
+  },
+  {
+    "id": "l1-2x10",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 10,
+    "answer": 20,
+    "prompt": "2 × 10"
+  },
+  {
+    "id": "l1-10x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 10,
+    "factorB": 2,
+    "answer": 20,
+    "prompt": "10 × 2"
+  },
+  {
+    "id": "l1-2x11",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 11,
+    "answer": 22,
+    "prompt": "2 × 11"
+  },
+  {
+    "id": "l1-11x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 11,
+    "factorB": 2,
+    "answer": 22,
+    "prompt": "11 × 2"
+  },
+  {
+    "id": "l1-2x12",
+    "level": 1,
+    "star": 2,
+    "factorA": 2,
+    "factorB": 12,
+    "answer": 24,
+    "prompt": "2 × 12"
+  },
+  {
+    "id": "l1-12x2",
+    "level": 1,
+    "star": 2,
+    "factorA": 12,
+    "factorB": 2,
+    "answer": 24,
+    "prompt": "12 × 2"
+  },
+  {
+    "id": "l1-5x3",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 3,
+    "answer": 15,
+    "prompt": "5 × 3"
+  },
+  {
+    "id": "l1-3x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 3,
+    "factorB": 5,
+    "answer": 15,
+    "prompt": "3 × 5"
+  },
+  {
+    "id": "l1-5x4",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 4,
+    "answer": 20,
+    "prompt": "5 × 4"
+  },
+  {
+    "id": "l1-4x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 4,
+    "factorB": 5,
+    "answer": 20,
+    "prompt": "4 × 5"
+  },
+  {
+    "id": "l1-5x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 5,
+    "answer": 25,
+    "prompt": "5 × 5"
+  },
+  {
+    "id": "l1-5x6",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 6,
+    "answer": 30,
+    "prompt": "5 × 6"
+  },
+  {
+    "id": "l1-6x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 6,
+    "factorB": 5,
+    "answer": 30,
+    "prompt": "6 × 5"
+  },
+  {
+    "id": "l1-5x7",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 7,
+    "answer": 35,
+    "prompt": "5 × 7"
+  },
+  {
+    "id": "l1-7x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 7,
+    "factorB": 5,
+    "answer": 35,
+    "prompt": "7 × 5"
+  },
+  {
+    "id": "l1-5x8",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 8,
+    "answer": 40,
+    "prompt": "5 × 8"
+  },
+  {
+    "id": "l1-8x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 8,
+    "factorB": 5,
+    "answer": 40,
+    "prompt": "8 × 5"
+  },
+  {
+    "id": "l1-5x9",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 9,
+    "answer": 45,
+    "prompt": "5 × 9"
+  },
+  {
+    "id": "l1-9x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 9,
+    "factorB": 5,
+    "answer": 45,
+    "prompt": "9 × 5"
+  },
+  {
+    "id": "l1-5x10",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 10,
+    "answer": 50,
+    "prompt": "5 × 10"
+  },
+  {
+    "id": "l1-10x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 10,
+    "factorB": 5,
+    "answer": 50,
+    "prompt": "10 × 5"
+  },
+  {
+    "id": "l1-5x11",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 11,
+    "answer": 55,
+    "prompt": "5 × 11"
+  },
+  {
+    "id": "l1-11x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 11,
+    "factorB": 5,
+    "answer": 55,
+    "prompt": "11 × 5"
+  },
+  {
+    "id": "l1-5x12",
+    "level": 1,
+    "star": 5,
+    "factorA": 5,
+    "factorB": 12,
+    "answer": 60,
+    "prompt": "5 × 12"
+  },
+  {
+    "id": "l1-12x5",
+    "level": 1,
+    "star": 5,
+    "factorA": 12,
+    "factorB": 5,
+    "answer": 60,
+    "prompt": "12 × 5"
+  },
+  {
+    "id": "l1-10x3",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 3,
+    "answer": 30,
+    "prompt": "10 × 3"
+  },
+  {
+    "id": "l1-3x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 3,
+    "factorB": 10,
+    "answer": 30,
+    "prompt": "3 × 10"
+  },
+  {
+    "id": "l1-10x4",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 4,
+    "answer": 40,
+    "prompt": "10 × 4"
+  },
+  {
+    "id": "l1-4x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 4,
+    "factorB": 10,
+    "answer": 40,
+    "prompt": "4 × 10"
+  },
+  {
+    "id": "l1-10x6",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 6,
+    "answer": 60,
+    "prompt": "10 × 6"
+  },
+  {
+    "id": "l1-6x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 6,
+    "factorB": 10,
+    "answer": 60,
+    "prompt": "6 × 10"
+  },
+  {
+    "id": "l1-10x7",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 7,
+    "answer": 70,
+    "prompt": "10 × 7"
+  },
+  {
+    "id": "l1-7x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 7,
+    "factorB": 10,
+    "answer": 70,
+    "prompt": "7 × 10"
+  },
+  {
+    "id": "l1-10x8",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 8,
+    "answer": 80,
+    "prompt": "10 × 8"
+  },
+  {
+    "id": "l1-8x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 8,
+    "factorB": 10,
+    "answer": 80,
+    "prompt": "8 × 10"
+  },
+  {
+    "id": "l1-10x9",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 9,
+    "answer": 90,
+    "prompt": "10 × 9"
+  },
+  {
+    "id": "l1-9x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 9,
+    "factorB": 10,
+    "answer": 90,
+    "prompt": "9 × 10"
+  },
+  {
+    "id": "l1-10x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 10,
+    "answer": 100,
+    "prompt": "10 × 10"
+  },
+  {
+    "id": "l1-10x11",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 11,
+    "answer": 110,
+    "prompt": "10 × 11"
+  },
+  {
+    "id": "l1-11x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 11,
+    "factorB": 10,
+    "answer": 110,
+    "prompt": "11 × 10"
+  },
+  {
+    "id": "l1-10x12",
+    "level": 1,
+    "star": 10,
+    "factorA": 10,
+    "factorB": 12,
+    "answer": 120,
+    "prompt": "10 × 12"
+  },
+  {
+    "id": "l1-12x10",
+    "level": 1,
+    "star": 10,
+    "factorA": 12,
+    "factorB": 10,
+    "answer": 120,
+    "prompt": "12 × 10"
+  },
+  {
+    "id": "l2-3x1",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 1,
+    "answer": 3,
+    "prompt": "3 × 1"
+  },
+  {
+    "id": "l2-1x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 1,
+    "factorB": 3,
+    "answer": 3,
+    "prompt": "1 × 3"
+  },
+  {
+    "id": "l2-3x2",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 2,
+    "answer": 6,
+    "prompt": "3 × 2"
+  },
+  {
+    "id": "l2-2x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 2,
+    "factorB": 3,
+    "answer": 6,
+    "prompt": "2 × 3"
+  },
+  {
+    "id": "l2-3x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 3,
+    "answer": 9,
+    "prompt": "3 × 3"
+  },
+  {
+    "id": "l2-3x4",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 4,
+    "answer": 12,
+    "prompt": "3 × 4"
+  },
+  {
+    "id": "l2-4x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 4,
+    "factorB": 3,
+    "answer": 12,
+    "prompt": "4 × 3"
+  },
+  {
+    "id": "l2-3x5",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 5,
+    "answer": 15,
+    "prompt": "3 × 5"
+  },
+  {
+    "id": "l2-5x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 5,
+    "factorB": 3,
+    "answer": 15,
+    "prompt": "5 × 3"
+  },
+  {
+    "id": "l2-3x6",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 6,
+    "answer": 18,
+    "prompt": "3 × 6"
+  },
+  {
+    "id": "l2-6x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 6,
+    "factorB": 3,
+    "answer": 18,
+    "prompt": "6 × 3"
+  },
+  {
+    "id": "l2-3x7",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 7,
+    "answer": 21,
+    "prompt": "3 × 7"
+  },
+  {
+    "id": "l2-7x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 7,
+    "factorB": 3,
+    "answer": 21,
+    "prompt": "7 × 3"
+  },
+  {
+    "id": "l2-3x8",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 8,
+    "answer": 24,
+    "prompt": "3 × 8"
+  },
+  {
+    "id": "l2-8x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 8,
+    "factorB": 3,
+    "answer": 24,
+    "prompt": "8 × 3"
+  },
+  {
+    "id": "l2-3x9",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 9,
+    "answer": 27,
+    "prompt": "3 × 9"
+  },
+  {
+    "id": "l2-9x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 9,
+    "factorB": 3,
+    "answer": 27,
+    "prompt": "9 × 3"
+  },
+  {
+    "id": "l2-3x10",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 10,
+    "answer": 30,
+    "prompt": "3 × 10"
+  },
+  {
+    "id": "l2-10x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 10,
+    "factorB": 3,
+    "answer": 30,
+    "prompt": "10 × 3"
+  },
+  {
+    "id": "l2-3x11",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 11,
+    "answer": 33,
+    "prompt": "3 × 11"
+  },
+  {
+    "id": "l2-11x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 11,
+    "factorB": 3,
+    "answer": 33,
+    "prompt": "11 × 3"
+  },
+  {
+    "id": "l2-3x12",
+    "level": 2,
+    "star": 3,
+    "factorA": 3,
+    "factorB": 12,
+    "answer": 36,
+    "prompt": "3 × 12"
+  },
+  {
+    "id": "l2-12x3",
+    "level": 2,
+    "star": 3,
+    "factorA": 12,
+    "factorB": 3,
+    "answer": 36,
+    "prompt": "12 × 3"
+  },
+  {
+    "id": "l2-4x1",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 1,
+    "answer": 4,
+    "prompt": "4 × 1"
+  },
+  {
+    "id": "l2-1x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 1,
+    "factorB": 4,
+    "answer": 4,
+    "prompt": "1 × 4"
+  },
+  {
+    "id": "l2-4x2",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 2,
+    "answer": 8,
+    "prompt": "4 × 2"
+  },
+  {
+    "id": "l2-2x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 2,
+    "factorB": 4,
+    "answer": 8,
+    "prompt": "2 × 4"
+  },
+  {
+    "id": "l2-4x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 4,
+    "answer": 16,
+    "prompt": "4 × 4"
+  },
+  {
+    "id": "l2-4x5",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 5,
+    "answer": 20,
+    "prompt": "4 × 5"
+  },
+  {
+    "id": "l2-5x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 5,
+    "factorB": 4,
+    "answer": 20,
+    "prompt": "5 × 4"
+  },
+  {
+    "id": "l2-4x6",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 6,
+    "answer": 24,
+    "prompt": "4 × 6"
+  },
+  {
+    "id": "l2-6x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 6,
+    "factorB": 4,
+    "answer": 24,
+    "prompt": "6 × 4"
+  },
+  {
+    "id": "l2-4x7",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 7,
+    "answer": 28,
+    "prompt": "4 × 7"
+  },
+  {
+    "id": "l2-7x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 7,
+    "factorB": 4,
+    "answer": 28,
+    "prompt": "7 × 4"
+  },
+  {
+    "id": "l2-4x8",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 8,
+    "answer": 32,
+    "prompt": "4 × 8"
+  },
+  {
+    "id": "l2-8x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 8,
+    "factorB": 4,
+    "answer": 32,
+    "prompt": "8 × 4"
+  },
+  {
+    "id": "l2-4x9",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 9,
+    "answer": 36,
+    "prompt": "4 × 9"
+  },
+  {
+    "id": "l2-9x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 9,
+    "factorB": 4,
+    "answer": 36,
+    "prompt": "9 × 4"
+  },
+  {
+    "id": "l2-4x10",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 10,
+    "answer": 40,
+    "prompt": "4 × 10"
+  },
+  {
+    "id": "l2-10x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 10,
+    "factorB": 4,
+    "answer": 40,
+    "prompt": "10 × 4"
+  },
+  {
+    "id": "l2-4x11",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 11,
+    "answer": 44,
+    "prompt": "4 × 11"
+  },
+  {
+    "id": "l2-11x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 11,
+    "factorB": 4,
+    "answer": 44,
+    "prompt": "11 × 4"
+  },
+  {
+    "id": "l2-4x12",
+    "level": 2,
+    "star": 4,
+    "factorA": 4,
+    "factorB": 12,
+    "answer": 48,
+    "prompt": "4 × 12"
+  },
+  {
+    "id": "l2-12x4",
+    "level": 2,
+    "star": 4,
+    "factorA": 12,
+    "factorB": 4,
+    "answer": 48,
+    "prompt": "12 × 4"
+  },
+  {
+    "id": "l3-6x1",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 1,
+    "answer": 6,
+    "prompt": "6 × 1"
+  },
+  {
+    "id": "l3-1x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 1,
+    "factorB": 6,
+    "answer": 6,
+    "prompt": "1 × 6"
+  },
+  {
+    "id": "l3-6x2",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 2,
+    "answer": 12,
+    "prompt": "6 × 2"
+  },
+  {
+    "id": "l3-2x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 2,
+    "factorB": 6,
+    "answer": 12,
+    "prompt": "2 × 6"
+  },
+  {
+    "id": "l3-6x3",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 3,
+    "answer": 18,
+    "prompt": "6 × 3"
+  },
+  {
+    "id": "l3-3x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 3,
+    "factorB": 6,
+    "answer": 18,
+    "prompt": "3 × 6"
+  },
+  {
+    "id": "l3-6x4",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 4,
+    "answer": 24,
+    "prompt": "6 × 4"
+  },
+  {
+    "id": "l3-4x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 4,
+    "factorB": 6,
+    "answer": 24,
+    "prompt": "4 × 6"
+  },
+  {
+    "id": "l3-6x5",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 5,
+    "answer": 30,
+    "prompt": "6 × 5"
+  },
+  {
+    "id": "l3-5x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 5,
+    "factorB": 6,
+    "answer": 30,
+    "prompt": "5 × 6"
+  },
+  {
+    "id": "l3-6x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 6,
+    "answer": 36,
+    "prompt": "6 × 6"
+  },
+  {
+    "id": "l3-6x7",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 7,
+    "answer": 42,
+    "prompt": "6 × 7"
+  },
+  {
+    "id": "l3-7x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 7,
+    "factorB": 6,
+    "answer": 42,
+    "prompt": "7 × 6"
+  },
+  {
+    "id": "l3-6x8",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 8,
+    "answer": 48,
+    "prompt": "6 × 8"
+  },
+  {
+    "id": "l3-8x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 8,
+    "factorB": 6,
+    "answer": 48,
+    "prompt": "8 × 6"
+  },
+  {
+    "id": "l3-6x9",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 9,
+    "answer": 54,
+    "prompt": "6 × 9"
+  },
+  {
+    "id": "l3-9x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 9,
+    "factorB": 6,
+    "answer": 54,
+    "prompt": "9 × 6"
+  },
+  {
+    "id": "l3-6x10",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 10,
+    "answer": 60,
+    "prompt": "6 × 10"
+  },
+  {
+    "id": "l3-10x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 10,
+    "factorB": 6,
+    "answer": 60,
+    "prompt": "10 × 6"
+  },
+  {
+    "id": "l3-6x11",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 11,
+    "answer": 66,
+    "prompt": "6 × 11"
+  },
+  {
+    "id": "l3-11x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 11,
+    "factorB": 6,
+    "answer": 66,
+    "prompt": "11 × 6"
+  },
+  {
+    "id": "l3-6x12",
+    "level": 3,
+    "star": 6,
+    "factorA": 6,
+    "factorB": 12,
+    "answer": 72,
+    "prompt": "6 × 12"
+  },
+  {
+    "id": "l3-12x6",
+    "level": 3,
+    "star": 6,
+    "factorA": 12,
+    "factorB": 6,
+    "answer": 72,
+    "prompt": "12 × 6"
+  },
+  {
+    "id": "l3-7x1",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 1,
+    "answer": 7,
+    "prompt": "7 × 1"
+  },
+  {
+    "id": "l3-1x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 1,
+    "factorB": 7,
+    "answer": 7,
+    "prompt": "1 × 7"
+  },
+  {
+    "id": "l3-7x2",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 2,
+    "answer": 14,
+    "prompt": "7 × 2"
+  },
+  {
+    "id": "l3-2x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 2,
+    "factorB": 7,
+    "answer": 14,
+    "prompt": "2 × 7"
+  },
+  {
+    "id": "l3-7x3",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 3,
+    "answer": 21,
+    "prompt": "7 × 3"
+  },
+  {
+    "id": "l3-3x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 3,
+    "factorB": 7,
+    "answer": 21,
+    "prompt": "3 × 7"
+  },
+  {
+    "id": "l3-7x4",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 4,
+    "answer": 28,
+    "prompt": "7 × 4"
+  },
+  {
+    "id": "l3-4x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 4,
+    "factorB": 7,
+    "answer": 28,
+    "prompt": "4 × 7"
+  },
+  {
+    "id": "l3-7x5",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 5,
+    "answer": 35,
+    "prompt": "7 × 5"
+  },
+  {
+    "id": "l3-5x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 5,
+    "factorB": 7,
+    "answer": 35,
+    "prompt": "5 × 7"
+  },
+  {
+    "id": "l3-7x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 7,
+    "answer": 49,
+    "prompt": "7 × 7"
+  },
+  {
+    "id": "l3-7x8",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 8,
+    "answer": 56,
+    "prompt": "7 × 8"
+  },
+  {
+    "id": "l3-8x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 8,
+    "factorB": 7,
+    "answer": 56,
+    "prompt": "8 × 7"
+  },
+  {
+    "id": "l3-7x9",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 9,
+    "answer": 63,
+    "prompt": "7 × 9"
+  },
+  {
+    "id": "l3-9x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 9,
+    "factorB": 7,
+    "answer": 63,
+    "prompt": "9 × 7"
+  },
+  {
+    "id": "l3-7x10",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 10,
+    "answer": 70,
+    "prompt": "7 × 10"
+  },
+  {
+    "id": "l3-10x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 10,
+    "factorB": 7,
+    "answer": 70,
+    "prompt": "10 × 7"
+  },
+  {
+    "id": "l3-7x11",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 11,
+    "answer": 77,
+    "prompt": "7 × 11"
+  },
+  {
+    "id": "l3-11x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 11,
+    "factorB": 7,
+    "answer": 77,
+    "prompt": "11 × 7"
+  },
+  {
+    "id": "l3-7x12",
+    "level": 3,
+    "star": 7,
+    "factorA": 7,
+    "factorB": 12,
+    "answer": 84,
+    "prompt": "7 × 12"
+  },
+  {
+    "id": "l3-12x7",
+    "level": 3,
+    "star": 7,
+    "factorA": 12,
+    "factorB": 7,
+    "answer": 84,
+    "prompt": "12 × 7"
+  },
+  {
+    "id": "l3-8x1",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 1,
+    "answer": 8,
+    "prompt": "8 × 1"
+  },
+  {
+    "id": "l3-1x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 1,
+    "factorB": 8,
+    "answer": 8,
+    "prompt": "1 × 8"
+  },
+  {
+    "id": "l3-8x2",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 2,
+    "answer": 16,
+    "prompt": "8 × 2"
+  },
+  {
+    "id": "l3-2x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 2,
+    "factorB": 8,
+    "answer": 16,
+    "prompt": "2 × 8"
+  },
+  {
+    "id": "l3-8x3",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 3,
+    "answer": 24,
+    "prompt": "8 × 3"
+  },
+  {
+    "id": "l3-3x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 3,
+    "factorB": 8,
+    "answer": 24,
+    "prompt": "3 × 8"
+  },
+  {
+    "id": "l3-8x4",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 4,
+    "answer": 32,
+    "prompt": "8 × 4"
+  },
+  {
+    "id": "l3-4x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 4,
+    "factorB": 8,
+    "answer": 32,
+    "prompt": "4 × 8"
+  },
+  {
+    "id": "l3-8x5",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 5,
+    "answer": 40,
+    "prompt": "8 × 5"
+  },
+  {
+    "id": "l3-5x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 5,
+    "factorB": 8,
+    "answer": 40,
+    "prompt": "5 × 8"
+  },
+  {
+    "id": "l3-8x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 8,
+    "answer": 64,
+    "prompt": "8 × 8"
+  },
+  {
+    "id": "l3-8x9",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 9,
+    "answer": 72,
+    "prompt": "8 × 9"
+  },
+  {
+    "id": "l3-9x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 9,
+    "factorB": 8,
+    "answer": 72,
+    "prompt": "9 × 8"
+  },
+  {
+    "id": "l3-8x10",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 10,
+    "answer": 80,
+    "prompt": "8 × 10"
+  },
+  {
+    "id": "l3-10x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 10,
+    "factorB": 8,
+    "answer": 80,
+    "prompt": "10 × 8"
+  },
+  {
+    "id": "l3-8x11",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 11,
+    "answer": 88,
+    "prompt": "8 × 11"
+  },
+  {
+    "id": "l3-11x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 11,
+    "factorB": 8,
+    "answer": 88,
+    "prompt": "11 × 8"
+  },
+  {
+    "id": "l3-8x12",
+    "level": 3,
+    "star": 8,
+    "factorA": 8,
+    "factorB": 12,
+    "answer": 96,
+    "prompt": "8 × 12"
+  },
+  {
+    "id": "l3-12x8",
+    "level": 3,
+    "star": 8,
+    "factorA": 12,
+    "factorB": 8,
+    "answer": 96,
+    "prompt": "12 × 8"
+  },
+  {
+    "id": "l3-9x1",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 1,
+    "answer": 9,
+    "prompt": "9 × 1"
+  },
+  {
+    "id": "l3-1x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 1,
+    "factorB": 9,
+    "answer": 9,
+    "prompt": "1 × 9"
+  },
+  {
+    "id": "l3-9x2",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 2,
+    "answer": 18,
+    "prompt": "9 × 2"
+  },
+  {
+    "id": "l3-2x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 2,
+    "factorB": 9,
+    "answer": 18,
+    "prompt": "2 × 9"
+  },
+  {
+    "id": "l3-9x3",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 3,
+    "answer": 27,
+    "prompt": "9 × 3"
+  },
+  {
+    "id": "l3-3x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 3,
+    "factorB": 9,
+    "answer": 27,
+    "prompt": "3 × 9"
+  },
+  {
+    "id": "l3-9x4",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 4,
+    "answer": 36,
+    "prompt": "9 × 4"
+  },
+  {
+    "id": "l3-4x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 4,
+    "factorB": 9,
+    "answer": 36,
+    "prompt": "4 × 9"
+  },
+  {
+    "id": "l3-9x5",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 5,
+    "answer": 45,
+    "prompt": "9 × 5"
+  },
+  {
+    "id": "l3-5x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 5,
+    "factorB": 9,
+    "answer": 45,
+    "prompt": "5 × 9"
+  },
+  {
+    "id": "l3-9x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 9,
+    "answer": 81,
+    "prompt": "9 × 9"
+  },
+  {
+    "id": "l3-9x10",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 10,
+    "answer": 90,
+    "prompt": "9 × 10"
+  },
+  {
+    "id": "l3-10x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 10,
+    "factorB": 9,
+    "answer": 90,
+    "prompt": "10 × 9"
+  },
+  {
+    "id": "l3-9x11",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 11,
+    "answer": 99,
+    "prompt": "9 × 11"
+  },
+  {
+    "id": "l3-11x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 11,
+    "factorB": 9,
+    "answer": 99,
+    "prompt": "11 × 9"
+  },
+  {
+    "id": "l3-9x12",
+    "level": 3,
+    "star": 9,
+    "factorA": 9,
+    "factorB": 12,
+    "answer": 108,
+    "prompt": "9 × 12"
+  },
+  {
+    "id": "l3-12x9",
+    "level": 3,
+    "star": 9,
+    "factorA": 12,
+    "factorB": 9,
+    "answer": 108,
+    "prompt": "12 × 9"
+  }
+]

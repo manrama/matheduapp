@@ -1,0 +1,35 @@
+[
+  {
+    "level": 1,
+    "label": "Warm-Up Powers",
+    "description": "Count with the friendly numbers — 1s, 2s, 5s, and 10s.",
+    "multipliers": [1, 2, 5, 10],
+    "advanceAtCorrect": 15,
+    "colorTheme": {
+      "primary": "#3FA7FF",
+      "secondary": "#B5E48C"
+    }
+  },
+  {
+    "level": 2,
+    "label": "Rising Heroes",
+    "description": "Level up to the trickier 3s and 4s.",
+    "multipliers": [3, 4],
+    "advanceAtCorrect": 30,
+    "colorTheme": {
+      "primary": "#FF9F1C",
+      "secondary": "#2EC4B6"
+    }
+  },
+  {
+    "level": 3,
+    "label": "Super Tables",
+    "description": "Master the mighty 6s, 7s, 8s, and 9s like a true hero.",
+    "multipliers": [6, 7, 8, 9],
+    "advanceAtCorrect": null,
+    "colorTheme": {
+      "primary": "#9B5DE5",
+      "secondary": "#F15BB5"
+    }
+  }
+]
