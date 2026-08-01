@@ -7,14 +7,17 @@ import StatHud from './StatHud.jsx';
 import HeroMeter from './HeroMeter.jsx';
 import ProblemCard from './ProblemCard.jsx';
 import ChoiceGrid from './ChoiceGrid.jsx';
-import UnlockToast from './UnlockToast.jsx';
+import AvatarBadge from './AvatarBadge.jsx';
+import HeroRevealModal from './HeroRevealModal.jsx';
+import HeroGallery from './HeroGallery.jsx';
 
 const ADVANCE_DELAY_MS = 950;
 
 /**
- * The Phase 2 core loop: read the problem → tap an answer → celebrate → next.
- * All game logic lives in useMathGameEngine; this component only orchestrates
- * presentation, timing, and the confetti.
+ * The game loop plus Phase 3 gamification: read the problem → tap an answer →
+ * celebrate → next, with a full superhero reveal every 5 correct and a Hero
+ * Squad gallery for picking an avatar. All game logic lives in
+ * useMathGameEngine; this component only orchestrates presentation and timing.
  */
 export default function GameScreen() {
   const engine = useMathGameEngine();
@@ -26,12 +29,17 @@ export default function GameScreen() {
     levelMeta,
     score,
     streak,
+    correctCount,
     heroProgress,
     pendingUnlock,
+    roster,
+    selectedHero,
+    unlockedHeroes,
   } = engine;
 
   // The value the child just tapped (for red/green button colouring).
   const [picked, setPicked] = useState(null);
+  const [galleryOpen, setGalleryOpen] = useState(false);
   const graded = status === 'correct' || status === 'incorrect';
 
   function handlePick(value) {
@@ -45,13 +53,19 @@ export default function GameScreen() {
     setPicked(null);
   }
 
-  function claimHero() {
+  // Reveal-modal actions.
+  function chooseHero() {
+    engine.selectAvatar(pendingUnlock.id);
+    engine.acknowledgeUnlock();
+    advance();
+  }
+  function keepCurrent() {
     engine.acknowledgeUnlock();
     advance();
   }
 
-  // Celebrate on a correct answer. If it unlocked a hero, hold on the toast;
-  // otherwise auto-advance to the next problem after a beat.
+  // Celebrate on a correct answer. If it unlocked a hero, hold on the reveal
+  // modal; otherwise auto-advance to the next problem after a beat.
   useEffect(() => {
     if (status !== 'correct') return undefined;
     if (pendingUnlock) {
@@ -81,6 +95,12 @@ export default function GameScreen() {
           <h1>
             <span className="brand__emoji">🦸</span> Mathketeers
           </h1>
+          <AvatarBadge
+            hero={selectedHero}
+            collectedCount={unlockedHeroes.length}
+            totalCount={roster.length}
+            onOpen={() => setGalleryOpen(true)}
+          />
         </header>
 
         <StatHud
@@ -127,11 +147,32 @@ export default function GameScreen() {
         </div>
       </div>
 
-      <p className="stage__foot">Phase 2 · The Core Loop</p>
+      <p className="stage__foot">Phase 3 · Gamification &amp; Avatars</p>
 
+      {/* Superhero reveal — fires every 5 correct answers */}
       <AnimatePresence>
         {pendingUnlock && (
-          <UnlockToast hero={pendingUnlock} onClaim={claimHero} />
+          <HeroRevealModal
+            hero={pendingUnlock}
+            currentAvatar={selectedHero}
+            collectedCount={unlockedHeroes.length}
+            totalCount={roster.length}
+            onChoose={chooseHero}
+            onKeep={keepCurrent}
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Hero Squad gallery — pick your avatar */}
+      <AnimatePresence>
+        {galleryOpen && (
+          <HeroGallery
+            roster={roster}
+            correctCount={correctCount}
+            collectedCount={unlockedHeroes.length}
+            onSelect={(id) => engine.selectAvatar(id)}
+            onClose={() => setGalleryOpen(false)}
+          />
         )}
       </AnimatePresence>
     </div>
