@@ -1,0 +1,321 @@
+/* ==========================================================================
+   Mathketeers — core-loop (Phase 2) component styles
+   ========================================================================== */
+
+/* ---- Stage / themed background ------------------------------------------ */
+.stage {
+  min-height: 100vh;
+  padding: clamp(1rem, 3vw, 2rem) clamp(1rem, 4vw, 2rem) 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+  background: radial-gradient(
+      120% 120% at 50% -10%,
+      color-mix(in srgb, var(--theme-primary) 45%, white) 0%,
+      color-mix(in srgb, var(--theme-secondary) 35%, white) 55%,
+      #eef3ff 100%
+    );
+  transition: background 0.6s ease;
+  overflow: hidden;
+}
+
+/* Floating decorative blobs for a playful, non-corporate feel */
+.stage__blob {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(2px);
+  opacity: 0.35;
+  pointer-events: none;
+  animation: float-bob 6s ease-in-out infinite;
+}
+.stage__blob--1 {
+  width: 120px;
+  height: 120px;
+  background: var(--sunshine);
+  top: 12%;
+  left: 6%;
+  animation-delay: -1s;
+}
+.stage__blob--2 {
+  width: 80px;
+  height: 80px;
+  background: var(--bubblegum);
+  top: 22%;
+  right: 8%;
+  animation-delay: -3s;
+}
+.stage__blob--3 {
+  width: 150px;
+  height: 150px;
+  background: var(--mint);
+  bottom: 8%;
+  left: 12%;
+  animation-delay: -2s;
+}
+
+.game {
+  width: min(560px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+  z-index: 1;
+}
+
+/* ---- Title ---------------------------------------------------------------- */
+.brand {
+  text-align: center;
+}
+.brand h1 {
+  font-size: clamp(1.9rem, 6vw, 2.6rem);
+  color: #fff;
+  text-shadow: 0 3px 0 rgba(43, 39, 64, 0.22);
+  letter-spacing: 0.5px;
+}
+.brand__emoji {
+  display: inline-block;
+  animation: float-bob 3.5s ease-in-out infinite;
+}
+
+/* ---- HUD (score / level / streak) ---------------------------------------- */
+.hud {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.65rem;
+}
+.stat {
+  background: var(--paper);
+  border-radius: var(--radius-md);
+  padding: 0.7rem 0.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}
+.stat__label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.stat__value {
+  display: block;
+  font-family: var(--font-fun);
+  font-weight: 800;
+  font-size: clamp(1.3rem, 5vw, 1.7rem);
+  color: var(--ink);
+  line-height: 1.1;
+}
+.stat__value .emoji {
+  font-size: 0.95em;
+}
+.stat--streak .stat__value {
+  color: var(--tangerine);
+}
+
+/* ---- Hero meter (progress to next unlock) -------------------------------- */
+.herometer {
+  background: var(--paper);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+.herometer__avatar {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  font-size: 1.9rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--theme-primary) 22%, white);
+  box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--theme-primary) 45%, white);
+}
+.herometer__avatar--locked {
+  filter: grayscale(1) opacity(0.55);
+}
+.herometer__body {
+  flex: 1;
+  min-width: 0;
+}
+.herometer__label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  margin-bottom: 0.35rem;
+}
+.herometer__label strong {
+  color: var(--ink);
+}
+.herometer__track {
+  height: 16px;
+  border-radius: 999px;
+  background: #ece9f4;
+  overflow: hidden;
+}
+.herometer__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--theme-primary), var(--sunshine));
+}
+.herometer__pips {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+}
+
+/* ---- Problem card --------------------------------------------------------- */
+.problem {
+  position: relative;
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.4rem, 5vw, 2.2rem) 1rem;
+  text-align: center;
+  box-shadow: var(--shadow-pop);
+}
+.problem__level {
+  display: inline-block;
+  font-family: var(--font-fun);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #fff;
+  background: var(--theme-primary);
+  padding: 0.25em 0.9em;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+.problem__equation {
+  font-family: var(--font-fun);
+  font-weight: 800;
+  font-size: clamp(2.8rem, 13vw, 4.6rem);
+  color: var(--ink);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15em;
+  flex-wrap: wrap;
+}
+.problem__q {
+  color: var(--theme-primary);
+}
+
+/* ---- Choice grid ---------------------------------------------------------- */
+.choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+.choice {
+  --btn-face: #fff;
+  --btn-edge: #d9d3ea;
+  --btn-text: var(--ink);
+  font-size: clamp(1.8rem, 7vw, 2.4rem);
+  font-weight: 800;
+  padding: 0.75em 0.5em;
+  min-height: 84px;
+}
+.choice--correct {
+  --btn-face: var(--leaf);
+  --btn-edge: #37946a;
+  --btn-text: #fff;
+}
+.choice--wrong {
+  --btn-face: var(--tomato);
+  --btn-edge: #c23b3b;
+  --btn-text: #fff;
+}
+.choice--dim {
+  opacity: 0.55;
+}
+
+/* ---- Feedback banner + Next ----------------------------------------------- */
+.feedback {
+  min-height: 2.2rem;
+  text-align: center;
+  font-family: var(--font-fun);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.feedback--correct {
+  color: #1f8a5b;
+}
+.feedback--wrong {
+  color: #c23b3b;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+}
+.next-btn {
+  --btn-face: var(--tangerine);
+  --btn-edge: #c26f00;
+  font-size: 1.35rem;
+  padding: 0.8em 2em;
+}
+
+/* ---- Unlock toast (lightweight; full reveal is Phase 3) ------------------- */
+.toast-wrap {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(30, 20, 55, 0.35);
+  backdrop-filter: blur(3px);
+  z-index: 30;
+}
+.toast {
+  --toast: var(--theme-primary);
+  width: min(360px, 100%);
+  background: var(--paper);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem 1.5rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-pop);
+  border: 5px solid var(--toast);
+}
+.toast__eyebrow {
+  font-family: var(--font-fun);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  color: var(--toast);
+}
+.toast__emoji {
+  font-size: 4.5rem;
+  line-height: 1;
+  margin: 0.4rem 0;
+  display: inline-block;
+}
+.toast__name {
+  font-size: 1.8rem;
+  color: var(--ink);
+}
+.toast__title {
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 0.2rem 0 1.1rem;
+}
+.toast__btn {
+  --btn-face: var(--toast);
+  --btn-edge: rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.toast__hint {
+  margin-top: 0.8rem;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+/* ---- Footer note ---------------------------------------------------------- */
+.stage__foot {
+  z-index: 1;
+  color: rgba(43, 39, 64, 0.5);
+  font-size: 0.78rem;
+  font-weight: 600;
+}

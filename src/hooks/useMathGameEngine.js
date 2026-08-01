@@ -51,6 +51,55 @@ function pickProblem(level, excludeId = null) {
   return candidates[Math.floor(Math.random() * candidates.length)];
 }
 
+const shuffle = (arr) => {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+
+/**
+ * Build a set of multiple-choice options for a problem — the correct answer
+ * plus plausible "near-miss" distractors. Kept in the engine (not the UI) so
+ * the presentation layer stays dumb: components just render `choices`.
+ */
+export function makeChoices(problem, count = 4) {
+  if (!problem) return [];
+  const { answer, factorA, factorB } = problem;
+  const choices = new Set([answer]);
+
+  // Distractors kids actually reach for: off-by-one factor, off-by-the-other
+  // -factor (skip-count slip), and small numeric neighbours of the answer.
+  const candidates = shuffle([
+    factorA * (factorB + 1),
+    factorA * (factorB - 1),
+    (factorA + 1) * factorB,
+    (factorA - 1) * factorB,
+    answer + factorA,
+    answer - factorA,
+    answer + factorB,
+    answer + 1,
+    answer - 1,
+    answer + 2,
+    answer + 10,
+  ]);
+
+  for (const n of candidates) {
+    if (choices.size >= count) break;
+    if (n > 0 && !choices.has(n)) choices.add(n);
+  }
+  // Safety net if a tiny answer starved the candidate pool.
+  let filler = answer + 1;
+  while (choices.size < count) {
+    if (filler > 0 && !choices.has(filler)) choices.add(filler);
+    filler += 1;
+  }
+
+  return shuffle([...choices]);
+}
+
 /** Points earned for a correct answer at a given level and streak length. */
 function pointsFor(level, streakAfterAnswer) {
   const streakBonus =
@@ -224,6 +273,11 @@ export function useMathGameEngine(initialState) {
 
   const levelMeta = useMemo(() => getLevelMeta(state.level), [state.level]);
 
+  // Multiple-choice options for the current problem. Recomputed only when the
+  // problem changes so the buttons stay stable while the child is answering.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const choices = useMemo(() => makeChoices(state.problem), [state.problem?.id]);
+
   const unlockedHeroes = useMemo(
     () => HEROES.filter((h) => state.unlockedHeroIds.includes(h.id)),
     [state.unlockedHeroIds],
@@ -281,6 +335,7 @@ export function useMathGameEngine(initialState) {
 
     // derived view data
     levelMeta,
+    choices,
     roster,
     unlockedHeroes,
     selectedHero,
