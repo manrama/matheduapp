@@ -514,10 +514,45 @@
   margin-top: 1.1rem;
 }
 
-/* ---- Footer note ---------------------------------------------------------- */
+/* ---- Footer: save status + start over ------------------------------------ */
 .stage__foot {
   z-index: 1;
-  color: rgba(43, 39, 64, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.savechip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 999px;
   font-size: 0.78rem;
-  font-weight: 600;
+  font-weight: 700;
+  color: var(--ink-soft);
+  box-shadow: var(--shadow-soft);
+}
+.savechip--error {
+  color: #c23b3b;
+  background: rgba(255, 235, 235, 0.9);
+}
+.startover {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-family: var(--font-fun);
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.55);
+}
+.startover:hover:not(:disabled) {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.85);
+}
+.startover:disabled {
+  opacity: 0.4;
+  cursor: default;
 }
